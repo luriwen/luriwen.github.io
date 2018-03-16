@@ -31,8 +31,12 @@ filter: 'category'
 
 
 # Build settings
+permalink: /:year/:month/:day/:title.html
 markdown: kramdown
 sass:
   style: compressed
-gems:
+
+plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
