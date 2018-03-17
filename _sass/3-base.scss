@@ -118,7 +118,6 @@
 
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-right: 52%; }
-
 }
 
 
@@ -347,21 +346,24 @@ pre > code {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-th,
-td {
-  padding: 8px 15px;
-  text-align: left;
-  border-top: 1px solid #E1E1E1;
-  border-left: 1px solid #E1E1E1;
-  border-right: 1px solid #E1E1E1;
-  border-bottom: 1px solid #E1E1E1; }
-th:first-child,
-td:first-child {
-  padding-left: 1px 1px; }
-th:last-child,
-td:last-child {
-  padding-right: 1px 1px; }
+table {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 85%;
+  border: 1px solid #E1E1E1;
+  border-collapse: collapse;
+}
 
+td,
+th {
+  padding: 9px 15px;
+  border: 1px solid #E1E1E1;
+}
+
+th {
+   text-align: left;
+}
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– 
